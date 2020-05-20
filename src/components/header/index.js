@@ -7,12 +7,12 @@ const Header = () => (
 		<h1>Sam</h1>
 		<nav>
 			<Link activeClassName={style.active} href="/">Intro</Link>
-			<Link activeClassName={style.active} href="/profile">Who</Link>
-			<Link activeClassName={style.active} href="/profile/john">What</Link>
-			<Link activeClassName={style.active} href="/profile/work">Work</Link>
+			<Link activeClassName={style.active} href="/who">Who</Link>
+			<Link activeClassName={style.active} href="/what">What</Link>
+			<Link activeClassName={style.active} href="/work">Work</Link>
 		</nav>
 		<div id={'contact'}>
-			<Link activeClassName={style.active} href="/profile/contact">Contact</Link>
+			<Link activeClassName={style.active} href="/">Contact</Link>
 		</div>
 	</header>
 );

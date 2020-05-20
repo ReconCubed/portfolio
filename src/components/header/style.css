@@ -43,12 +43,6 @@
 	border-bottom: none;
 }
 
-/*.header a:hover::after,*/
-/*.header a:active {*/
-	/*width:100%;*/
-	/*background: rgba(0,0,0,0.2);*/
-/*}*/
-
 .header a:hover:after,
 .header a.active:after {
 	width:100%;

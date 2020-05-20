@@ -11,7 +11,7 @@ const Header = () => (
 			<Link activeClassName={style.active} href="/what">What</Link>
 			<Link activeClassName={style.active} href="/work">Work</Link>
 		</nav>
-		<div id={'contact'}>
+		<div class={style.contact}>
 			<Link activeClassName={style.active} href="/">Contact</Link>
 		</div>
 	</header>

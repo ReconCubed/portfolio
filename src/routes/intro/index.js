@@ -5,7 +5,12 @@ export default class Intro extends Component {
 	render() {
 		return (
 			<div className={style.intro}>
-				<h1>Intro</h1>
+				<div className={style.main}>
+					<h1>DEVELOPER</h1>
+					<h1>LIVING IN AUSTRALIA</h1>
+					<h1>YEARS OF EXPERIENCE</h1>
+					<h1>AVAILABLE FOR YOU</h1>
+				</div>
 			</div>
 		)
 	}

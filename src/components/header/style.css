@@ -1,0 +1,64 @@
+.header {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 32px;
+	padding: 40px 40px 0 40px;
+	z-index: 50;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+
+.header h1 {
+	float: left;
+	padding: 0 12px;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 32px;
+	color: #FFF;
+}
+
+.header nav {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	font-size: 100%;
+}
+
+.header a {
+	display: inline-block;
+	height: 32px;
+	line-height: 32px;
+	padding: 0 15px;
+	min-width: 50px;
+	text-align: center;
+	background: rgba(255,255,255,0);
+	text-decoration: none;
+	color: #FFF;
+	will-change: background-color;
+	border-bottom: none;
+}
+
+/*.header a:hover::after,*/
+/*.header a:active {*/
+	/*width:100%;*/
+	/*background: rgba(0,0,0,0.2);*/
+/*}*/
+
+.header a:hover:after,
+.header a.active:after {
+	width:100%;
+}
+
+.header a:after {
+	width: 0;
+	content: '';
+	display: block;
+	-webkit-transition: width .3s;
+	transition: width .3s;
+	border-bottom: 1px dashed white;
+}

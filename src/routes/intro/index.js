@@ -1,11 +1,11 @@
 import { h, Component } from 'preact';
 import style from './style';
 
-export default class Home extends Component {
+export default class Intro extends Component {
 	render() {
 		return (
-			<div className={style.home}>
-				<h1>Home</h1>
+			<div className={style.intro}>
+				<h1>Intro</h1>
 			</div>
 		)
 	}

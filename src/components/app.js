@@ -1,5 +1,6 @@
 import { h, Component } from 'preact';
 import { Router } from 'preact-router';
+import Helmet from 'preact-helmet';
 
 import Header from './header';
 
@@ -22,6 +23,10 @@ export default class App extends Component {
 	render() {
 		return (
 			<div id="app">
+				<Helmet
+					defaultTitle={"ReconCubed"}
+					titleTemplate={"%s - ReconCubed"}
+				/>
 				<Header />
 				<Router onChange={this.handleRoute}>
 					<Intro path="/" />

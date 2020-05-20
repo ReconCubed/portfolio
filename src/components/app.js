@@ -3,6 +3,7 @@ import { Router } from 'preact-router';
 import Helmet from 'preact-helmet';
 
 import Header from './header';
+import Footer from './footer';
 
 // Code-splitting is automated for routes
 import Intro from '../routes/intro';
@@ -34,6 +35,7 @@ export default class App extends Component {
 					<What path="/what"/>
 					<Work path="/work"/>
 				</Router>
+				<Footer/>
 			</div>
 		);
 	}

@@ -218,8 +218,8 @@ figcaption {
 a {
 	cursor: pointer;
 	text-decoration: none;
-	color: #ff2e88;
-	border-bottom: 1px solid #ff2e88;
+	color: #fff;
+	border-bottom: 1px solid #fff;
 }
 
 a:hover {

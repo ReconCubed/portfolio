@@ -6,7 +6,7 @@ export default class Intro extends Component {
 		return (
 			<div className={style.intro}>
 				<div className={style.main}>
-					<h1>DEVELOPER</h1>
+					<h1>SOFTWARE ENGINEER</h1>
 					<h1>LIVING IN AUSTRALIA</h1>
 					<h1>YEARS OF EXPERIENCE</h1>
 					<h1>AVAILABLE FOR YOU</h1>

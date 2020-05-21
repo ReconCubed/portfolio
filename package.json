@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "build": "preact build",
+    "build": "preact build && cp CNAME_TEM build && mv build/CNAME_TEM build/CNAME",
     "serve": "sirv build --cors --single",
     "dev": "preact watch",
     "lint": "eslint src",

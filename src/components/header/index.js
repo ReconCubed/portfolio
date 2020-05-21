@@ -4,7 +4,7 @@ import style from './style.css';
 
 const Header = () => (
 	<header class={style.header}>
-		<h1>Sam</h1>
+		<h1>sandscri.pt</h1>
 		<nav>
 			<Link activeClassName={style.active} href="/">Intro</Link>
 			<Link activeClassName={style.active} href="/who">Who</Link>

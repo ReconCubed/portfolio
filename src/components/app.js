@@ -29,6 +29,7 @@ export default class App extends Component {
 					titleTemplate={"%s - ReconCubed"}
 				/>
 				<Header />
+
 				<Router onChange={this.handleRoute}>
 					<Intro path="/" />
 					<Who path="/who"/>

@@ -9,6 +9,10 @@ export default class Who extends Component {
 			<div className={style.who}>
 				<Helmet
 					title={"Who"}
+					style={[
+						{type: "text/css", cssText: "body {background: rgb(11,35,255);" +
+								"background: linear-gradient(165deg, rgba(11,35,255,1) 0%, rgba(96,221,255,1) 100%);}"}
+					]}
 				/>
 				<div className={style.content}>
 					<img className={style.me} src={gif} alt={'sprite rendition of myself'}/>

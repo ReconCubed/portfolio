@@ -1,5 +1,6 @@
-import { h, Component } from 'preact';
+import {h, Component} from 'preact';
 import style from './style';
+import gif from './me.gif';
 import Helmet from 'preact-helmet';
 
 export default class Who extends Component {
@@ -7,9 +8,15 @@ export default class Who extends Component {
 		return (
 			<div className={style.who}>
 				<Helmet
-				title={"Who"}
+					title={"Who"}
 				/>
-				<h1>Who</h1>
+				<div className={style.content}>
+					<img className={style.me} src={gif}/>
+					<div>
+						<h1>i'm sam. nice to meet you.</h1>
+						<p>i specialise in everything web & mobile.</p>
+					</div>
+				</div>
 			</div>
 		)
 	}

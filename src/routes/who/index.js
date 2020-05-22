@@ -11,10 +11,11 @@ export default class Who extends Component {
 					title={"Who"}
 				/>
 				<div className={style.content}>
-					<img className={style.me} src={gif}/>
+					<img className={style.me} src={gif} alt={'sprite rendition of myself'}/>
 					<div>
 						<h1>i'm sam. nice to meet you.</h1>
 						<p>i specialise in everything web & mobile.</p>
+						<p>based in australia.</p>
 					</div>
 				</div>
 			</div>
